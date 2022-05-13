@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Слайд-шоу</title>
+		<meta charset = "utf-8">
+		<script type="text/javascript" src="2.js"></script>
+		<style>
+			.fig {
+				text-align: center;
+				width: 300px;	
+				height: 200px;
+				outline: 4px solid #ffa500;
+			}
+			.b1 {
+				background: navy;
+				color: white;
+				font-size: 9pt; 
+			}
+		</style>
+	</head>
+	<body>
+		<p class="fig"><img src="0.jpg" width="300" height="200" name="pic" onClick=kartinka()></p>
+		<button class = "b1" onClick=SladeShow()>Начать слайд-шоу</button>
+		
+		<form name="form">
+		<br>ВВЕДИТЕ СТРОКИ<br>
+		<input type=text name=pole1 size=20><br>
+		<input type=text name=pole2 size=20>
+		<br>
+		<input type="button" value="Сортировать" onClick=sort()></input>
+		</form>
+		<hr>
+		<span id="s"></span></form>
+	</body>
+</html>
